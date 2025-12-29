@@ -13,9 +13,9 @@ The focus is on **context-aware de-identification**, avoiding common pitfalls su
 ## Why De-identification Matters
 Medical texts may contain **Protected Health Information (PHI)** that can lead to patient re-identification.
 This project balances:
-- 🔐 Privacy protection
-- 🧠 Clinical meaning preservation
-- ⚙️ Practical deployment constraints
+- Privacy protection
+- Clinical meaning preservation
+- Practical deployment constraints
 
 ---
 
@@ -60,5 +60,9 @@ For case-report texts, gender terms may be generalized:
 ---
 
 ## Example
+**Original**
+A 17-year-old girl with Guillain-Barre syndrome was treated successfully.
+**De-identified**
+A [AGE_CHILD] [GENDER_FEMALE] with Guillain-Barre syndrome was treated successfully.
 
 **Original**
